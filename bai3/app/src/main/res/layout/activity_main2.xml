@@ -4,6 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:id="@+id/constraintLayout1"
+    android:background="@drawable/back"
     tools:context=".MainActivity2">
 
+    <SeekBar
+        android:id="@+id/seekBar"
+        style="@android:style/Widget.DeviceDefault.Light.SeekBar"
+        android:layout_width="403dp"
+        android:layout_height="117dp"
+        android:max="100"
+        android:progress="40"
+        android:secondaryProgress="70"
+        android:thumb="@android:mipmap/sym_def_app_icon" />
 </androidx.constraintlayout.widget.ConstraintLayout>

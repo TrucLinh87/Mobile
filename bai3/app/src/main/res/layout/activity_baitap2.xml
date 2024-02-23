@@ -4,6 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:id="@+id/constraintLayout1"
     tools:context=".baitap2">
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="384dp"
+        android:layout_height="84dp"
+        android:text="Thay đổi màn hình"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
