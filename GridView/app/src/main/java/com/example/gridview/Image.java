@@ -1,2 +1,27 @@
-package com.example.gridview;public class Image {
+package com.example.gridview;
+
+public class Image {
+    private String name;
+    private int hinhanh;
+
+    public Image(String name, int hinhanh) {
+        this.name = name;
+        this.hinhanh = hinhanh;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getHinhanh() {
+        return hinhanh;
+    }
+
+    public void setHinhanh(int hinhanh) {
+        this.hinhanh = hinhanh;
+    }
 }

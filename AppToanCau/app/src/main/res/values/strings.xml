@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">App Toan Cau</string>
+    <string name="text_Tieude">Information</string>
+    <string name="hint_Hoten">Name</string>
+    <string name="hint_Email">Email address</string>
+    <string name="hint_Sodienthoai">Phone number</string>
+    <string name="text_Xacnhan">Confirm</string>
+    <string name="text_Hello">Hello</string>
+    <string name="text_Email">Email address</string>
+    <string name="text_Sodienthoai">Phone number</string>
+
+</resources>

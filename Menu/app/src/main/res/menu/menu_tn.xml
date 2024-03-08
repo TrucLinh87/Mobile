@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+        <item android:title="Settings"
+            android:icon="@android:drawable/ic_input_add"
+            app:showAsAction="always"
+            android:id="@+id/menuSettings"/>
+        <item android:title="Feedback"
+            android:id="@+id/menuFeedback"/>
+        <item android:title="Help"
+            android:id="@+id/menuHelp"/>
+        <item android:title="Contact"
+            android:id="@+id/menuContact">
+                <menu>
+                        <item android:title="Phone"
+                            android:id="@+id/meunuPhone"/>
+                        <item android:title="Email"
+                            android:id="@+id/meunuEmail"/>
+                </menu>
+        </item>
+</menu>

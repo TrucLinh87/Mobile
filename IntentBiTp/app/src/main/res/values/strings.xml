@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Intent Bài Tập</string>
+    <string-array name="list_name">
+        <item>b1</item>
+        <item>b2</item>
+        <item>b3</item>
+        <item>b4</item>
+        <item>b5</item>
+        <item>b6</item>
+        <item>b7</item>
+        <item>b8</item>
+        <item>b9</item>
+        <item>b10</item>
+        <item>b11</item>
+        <item>b12</item>
+        <item>b13</item>
+        <item>b14</item>
+        <item>b15</item>
+    </string-array>
+</resources>
